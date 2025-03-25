@@ -8,6 +8,7 @@ import cookieParser from 'cookie-parser';
 import path from 'path';
 
 const PORT = process.env.PORT || 5000;
+const __dirname = path.resolve();
 
 //File requirement
 import connectDB from './Config/database.config.js';
